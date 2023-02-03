@@ -16,3 +16,9 @@ git clone https://userName:token@github.com/cecyours/repo.git
 ```python
     6 is most repeated number.
 ```
+
+2. Write a program to display hexa decimal number, without using in-build method
+
+```python
+    1,2,3,....9,A...F .... upto AE45
+```
