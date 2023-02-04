@@ -17,8 +17,27 @@ git clone https://userName:token@github.com/cecyours/repo.git
     6 is most repeated number.
 ```
 
-2. Write a program to display hexa decimal number, without using in-build method
+2. Write a program to display hexa decimal numbers, without using in-build method
 
 ```python
     1,2,3,....9,A...F .... upto AE45
 ```
+
+3. Write a program to display closest prime number of given number.
+```python
+    num = int(input("Enter the number "))
+```
+```python
+    11 # output when num = 12
+    50 # output when num = 50
+
+```
+4. Write a program to convert .json data to dictionary using for loop.
+
+```python
+    # file.json
+    {
+           
+    }
+```
+
