@@ -31,3 +31,13 @@ Blogs are a more useful tool in this tech era, some people loved to read books, 
 - [x] The viewer can contact the `admin`(Blogger) with contact forms.
 - [x] The viewer can view the location of the business.
 - [x] The viewer can share the post on social media.
+
+
+#### Tools & Technologies
+
+1. Python Programming
+2. HTML5
+3. CSS3
+4. JS & Jquery
+5. mysql
+6. Firebase Auth
