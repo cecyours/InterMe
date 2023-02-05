@@ -28,6 +28,7 @@ Students are mostly confused about how they can get the best skill. Skills are h
 2. HTML5
 3. CSS3
 4. JS & Jquery
-5. mysql
-6. Firebase
-7. Django Framework
+5. json
+7. mysql
+7. Firebase
+8. Django Framework

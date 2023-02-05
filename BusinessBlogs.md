@@ -35,9 +35,10 @@ Blogs are a more useful tool in this tech era, some people loved to read books, 
 
 #### Tools & Technologies
 
-1. Python Programming
+1. Python
 2. HTML5
 3. CSS3
 4. JS & Jquery
 5. mysql
-6. Firebase Auth
+6. Firebase
+7. Django Framework
