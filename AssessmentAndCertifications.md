@@ -9,4 +9,4 @@
 
 > Why need of ```Assessment And Certifications```
 
-Students are mostly confused about how they can get the best skill. Skills are helpful to create own place in the world, by giving examinations & solving stuff on our platform. Institutes can also examine their students with their question bank with admin portal. An individual student can be applied for an exam & get the certification of the particular exam.
+Students are mostly confused about how they can get the best skill. Skills are helpful to create own place in the world, by giving examinations & solving stuff on our platform. Institutes can also examine their students with their question bank with admin portal. An individual student can be applied for an exam & get the certification of the particular exam. We gave you suggestion & google search hint while they practicing on our platform.
