@@ -4,7 +4,7 @@
 
 > Intrudction
 
-CryptoTrade is a Cryptocurrency trading web application to predict the growth of cryptocurrency. The investment is wise in this generation. Money devalues over some time, so you can't store many in one place. For example, you have \$100 to buy a new game console, but after a year \$100 isn't enough to buy it. So your money will devalue at some time. Investing is wise option for those who want to increase the value. CryptoTrade will provide the platform to Buy/ Sell Cryptocurrency with the prediction of the coin value. Yes, it is possible to predict the future will AI/ML algorithms. Investment is very usefull when you use strategies to create your protfoio. 
+CryptoTrade is a Cryptocurrency trading web application to predict the growth of cryptocurrency. The investment is wise in this generation. Money devalues over some time, so you can't store money in one place. For example, you have \$100 to buy a new game console, but after a year \$100 isn't enough to buy it. So your money will devalue at some time. Investing is wise option for those who want to increase the value. CryptoTrade will provide the platform to Buy/ Sell Cryptocurrency with the prediction of the coin value. Yes, it is possible to predict the future will AI/ML algorithms. Investment is very usefull when you use strategies to create your protfoio. 
 
 
 > Why CryptoTrade ?
