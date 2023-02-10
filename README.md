@@ -51,7 +51,33 @@ git clone https://userName:token@github.com/cecyours/repo.git
     [3,5,2]
 ```
 
-| 2 <sup>nd</sup> Feb
+5. create login program to verified the valid user
+
+6. create user define module to insert data into exel file.
+
+
+7. Write a module to reverse data of given file.
+
+```python
+    #input
+
+    file = input("Enter source file : ") # myfile.txt
+    
+```
+```yml
+    myfile.txt :
+        Hello World
+        How are you?
+```
+```yml
+    #output
+    output.txt:
+        How are you?
+        Hello World
+```
+8. explore `pymysql` & perform min 10 queries.
+
+> | 2 <sup>nd</sup> Feb
 
 1. Write a program to find out which element of given list is most repeated.
 
