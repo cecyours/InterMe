@@ -4,6 +4,23 @@
 
 git clone https://userName:token@github.com/cecyours/repo.git
 
+| 16 <sup>th</sup> Feb
+
+1. write a program to display following n list, every list contains the size of expected value.
+```python
+    [0]
+    [1,"Patricia Halford"]
+    [3,"Patrick Keating","Christina","John Henderson"]
+    [2,"Williams Enriqueta","Mary Smith"]
+```
+
+2. Write a program to create object list from given json data & display content date wise.
+
+>    donwload 
+    [json file here ]('https://github.com/cecyours/PythonInternShipDjnagoFeb23/blob/main/json_code.json')
+
+3.
+
 | 9 <sup>th</sup> Feb
 
 1.Write a program to find the factors of given number.
