@@ -19,7 +19,28 @@ git clone https://userName:token@github.com/cecyours/repo.git
 [json file](https://github.com/cecyours/PythonInternShipDjnagoFeb23/blob/main/json_code.json)
 
 
-3.
+3. Write a program to display following pattern by given name.
+```python
+    # input
+    name = "Programming"
+```
+```python
+    # output
+    Programming | gnimmargorP
+     rogramming | gnimmargor
+      ogramming | gnimmargo
+       gramming | gnimmarg
+        ramming | gnimmar
+         amming | gnimma
+          mming | gnimm
+           ming | gnim
+            ing | gni
+             ng | gn
+              g | g
+     
+```
+4. 
+
 
 | 9 <sup>th</sup> Feb
 
