@@ -17,8 +17,7 @@ git clone https://userName:token@github.com/cecyours/repo.git
 
 2. Write a program to create object list from given json data & display content date wise.
 
-[json file here](./json_code.json "download")
-
+<a href='./json_data.json'> download</a>
 
 3.
 
