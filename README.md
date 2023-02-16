@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # InterMe
 
 >cmd to clone repo
