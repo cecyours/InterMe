@@ -14,3 +14,4 @@ def isPrime(num):
 
 if __name__=="__main__":
     display()
+5e4rs
