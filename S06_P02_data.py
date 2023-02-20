@@ -1,4 +1,4 @@
-import json
+Cimport json
 
 class Product:
     
@@ -17,7 +17,7 @@ with open('./json_code.json') as file:
         name = i['Product']
         price = i['Price']
         city = i['City']
-        
+
         p = Product(id,name,price,city)
         product.append(p)
 
