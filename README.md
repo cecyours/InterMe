@@ -39,10 +39,15 @@ git clone https://userName:token@github.com/cecyours/repo.git
               g | g
      
 ```
-4. 
+4. Write a program to generate password pattern to guess the password with given inputs.
 
+5. Write a program to count the digits in given string.
 
-| 9 <sup>th</sup> Feb
+6. Write a program to make 1000 folders with in 100 seconds.
+
+7. Write a program to display content of database table using `pymysql`
+
+>  9 <sup>th</sup> Feb
 
 1.Write a program to find the factors of given number.
 
