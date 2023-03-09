@@ -1,0 +1,29 @@
+body{
+    background-color: whitesmoke;
+}
+/* 
+.model{
+    position: relative;
+    border-radius: 10px;
+    float: left;
+    margin:30px;
+    height: 100px;
+    background: #efefef;
+}
+
+*/ .model img{
+    width: 300px;
+    height: auto;
+    position: relative;
+} 
+*/
+.name-tag{
+    margin: 10px;
+    position: absolute;
+    top:0;
+}
+.disc-tag{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
