@@ -6,10 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{% static '/css/main.css' %}">
 </head> 
 <body>
-    Hello me..
+    {% for i in data %}
+        <div class="container"> 
+            {{i.rating}}
+            <!-- to display filled star -->
+            <div>
+                
+            {% while i.rating not 0: %}
+            <span class="fa fa-star checked"></span>                
+             {{i.rating-=1}}
+            {%endwhile%}
+            </div>
+                <img src="../static/imgs/{{i.poster}}">
+                <h1>{{i.name}}</h1>
+                <div>{{i.desc}}</div>
+            </div>
+    {%endfor%}
 </body>
 </html>
