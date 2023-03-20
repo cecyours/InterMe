@@ -4,10 +4,11 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request,'index.html')
+    return render(request,'home.html')
 
-def add(request):
-    n1 = int(request.POST.get('n1'))
-    n2 = int(request.POST.get('n2'))
-    n3 = n1+n2
-    return render(request,"add.html",{'num1':n1,'num2':n2,'num3':n3})
+def sum(vaibhav):
+    num1 = int(vaibhav.GET.get('n1'))
+    num2 = int(vaibhav.GET.get('n2'))
+    num3 = num1+num2
+    print(num1,num2)
+    return render(vaibhav,'result.html',{'x':num1,'y':num2,'z':num3})
