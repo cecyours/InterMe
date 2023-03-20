@@ -9,6 +9,10 @@ def index(request):
 def sum(vaibhav):
     num1 = int(vaibhav.GET.get('n1'))
     num2 = int(vaibhav.GET.get('n2'))
-    num3 = num1+num2
+    a = num1 + num2
+    m = num1 * num2
+    s = num1 - num2 
+    d = num1 / num2
+    z=str(a)+" , "+str(m)+" , "+str(s)+" , "+str(d)
     print(num1,num2)
-    return render(vaibhav,'result.html',{'x':num1,'y':num2,'z':num3})
+    return render(vaibhav,'result.html',{'z':z})
