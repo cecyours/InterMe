@@ -1,7 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 
+from .forms import BookForm
 # Create your views here.
-
 
 def index(request):
     return render(request,'home.html')
@@ -16,3 +16,19 @@ def sum(vaibhav):
     z=str(a)+" , "+str(m)+" , "+str(s)+" , "+str(d)
     print(num1,num2)
     return render(vaibhav,'result.html',{'z':z})
+
+from.models import Book
+def add(request):
+    bForm = BookForm()
+
+    if(request.method=="POST"):
+        book = BookForm(request.POST)
+        if book.is_valid():
+            book.save()
+            return redirect('home')
+            
+ 
+    return render(request,'addproduct.html',{'myform':bForm})
+
+def welcome(request):
+    return render(request,'welcome.html')

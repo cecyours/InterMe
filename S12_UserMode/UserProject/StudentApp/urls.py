@@ -19,5 +19,7 @@ from django.urls import path,include
 from . import views
 urlpatterns = [
     path('',views.index,name='home'),
-    path('get_sum',views.sum,name="sdfbjds")
+    path('get_sum',views.sum,name="sdfbjds"),
+    path('add',views.add,name="add-book"),
+    path('welcome',views.welcome,name='home')
 ]
