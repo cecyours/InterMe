@@ -1,0 +1,27 @@
+
+{% extends 'base.html'%}
+{% block title%}
+Hello me
+{% endblock%}
+
+
+{% block content%}
+<div style="margin:50px;">
+
+    {% for f in userForm%}
+    <div>
+        <div>
+            {{f.field.label}}:
+        </div>
+        <div>
+            {{f}}
+        </div>
+    </div>
+    {%endfor%}
+    <div>
+        <input type="submit">
+    </div>
+    
+</div>
+{% endblock%}
+
