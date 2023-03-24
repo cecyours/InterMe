@@ -6,9 +6,10 @@ Hello me
 
 
 {% block content%}
-<div style="margin:50px;">
-
-    
+<div style="margin:50px;" >
+    <form method="POST">
+        {% csrf_token %} 
+        
 
     <div>
         <div>
@@ -22,10 +23,10 @@ Hello me
     
     <div>
         <div>
-            <label>USER NAME : </label>
+            <label>USER PASS : </label>
         </div>
         <div>
-            <input type="text" name="username">
+            <input type="password" name="password">
         </div>
     </div> 
 
@@ -34,6 +35,12 @@ Hello me
         <input type="submit">
     </div>
 
+
+</form>
+    
+    <div>
+        <a href="signup">new user? ..Register here..</a>
+    </div>
 </div>
 {% endblock%}
 
