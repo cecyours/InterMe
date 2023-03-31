@@ -1,0 +1,27 @@
+{% extends 'base.html'%}
+{% load widget_tweaks %}
+{%block t1%}Hey There!{%endblock%}
+
+{%block my_content%} 
+
+<form style="margin: 50px;" method="POST">
+    {% csrf_token %}
+    
+    {%for f in sform%}
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">{{f.field.label}}</label>
+           
+    {% render_field f class="form-control" %}
+        
+    {% for errors in f.errors%}
+        
+        <div class="form-text" style="color:red;">{{errors}}</div>
+    {%endfor%}
+      </div>
+    {%endfor%}
+     
+    
+      
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+{%endblock%}
