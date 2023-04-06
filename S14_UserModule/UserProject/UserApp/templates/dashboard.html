@@ -4,7 +4,9 @@ Hello me
 {% endblock%}
 
 
-{% block content%}
-byee
+{% block content%}  
+    {%for i in data%}
+        {{icd .}}
+    {%endfor%}
 {% endblock%}
 

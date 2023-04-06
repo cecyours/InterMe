@@ -9,6 +9,16 @@ from django.contrib.auth.decorators import login_required
 def index(request): 
    return render(request,'index.html')
 
+import requests
+import json
+def user_dashboard(request):
+   #  load all Q.
+
+   r = requests.get("https://cecyours.org/api/sample.json");
+   print(type(str(r.json())))
+  
+   return render(request,'dashboard.html',{"data":r.json()})
+   pass
 
 def signup_user(request):
    if request.user.is_authenticated:
