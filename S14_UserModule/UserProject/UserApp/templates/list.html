@@ -1,0 +1,37 @@
+{%extends 'base.html'%}
+{% block title%}{%endblock%}
+{% block content%}
+<style>
+    img.poster {
+        width: 300px;
+        height: 170px;
+        object-fit: fill;
+        border-radius: 5px;
+        filter: drop-shadow(5px 5px 5px #222);
+    }
+
+    div {
+        margin: 10px;
+        text-align: right;
+    }
+
+    div.poster:nth-child(odd) {
+        text-align: left;
+    }
+</style>
+
+<section style="margin: 100px;">
+
+    {%for i in data%}
+        <div class="poster">
+            <h2>{{i.post_name}}</h2>
+            <p>
+                {{i.post_disc}}
+            </p>
+            <img class="poster" src="{{i.post_poster}}">
+        </div>
+
+    {%endfor%}
+
+</section>
+{%endblock%}

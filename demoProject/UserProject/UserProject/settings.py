@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-3#g3*0xc11q!mw&_3pqf17r()p)*_*=e=+))1wwb+5v+gg#5zn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*',]
+
 
 
 # Application definition
@@ -76,9 +77,9 @@ WSGI_APPLICATION = 'UserProject.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {  
-    'default': {  
+    'defaul2t': {  
         'ENGINE': 'django.db.backends.mysql',  
-        'NAME': 'navu',  
+        'NAME': 'mysql',  
         'USER': 'root',  
         'PASSWORD': '',  
         'HOST': '127.0.0.1',  
@@ -86,6 +87,15 @@ DATABASES = {
         'OPTIONS': {  
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  
         }  
+    },
+    'default': {  
+        'ENGINE': 'django.db.backends.mysql',  
+        'NAME': 'mysql',  
+        'USER': 'user_db',  
+        'PASSWORD': '2forme72H',  
+        'HOST': '192.168.1.20',  
+        'PORT': '3306',  
+          
     }  
 }  
 

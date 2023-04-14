@@ -1,12 +1,147 @@
 {% extends 'base.html'%}
 {% block title%}
-Hello me
+C language Test Module
 {% endblock%}
 
 
-{% block content%}  
-    {%for i in data%}
-        {{icd .}}
-    {%endfor%}
-{% endblock%}
+{% block content%}
+<style>
+    html {
+        --color: #999;
+        --checked-color: #ff5722;
 
+        --bg-color: #e8e8e8;
+
+        font-family: Arial;
+        font-size: 16px;
+    }
+
+    h3 {
+        margin-bottom: 0.2em;
+    }
+
+    small {
+        font-size: 11px;
+        color: #555;
+        margin-left: 1rem;
+    }
+
+    section {
+        /* display: flex; */
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    input,
+    label {
+        cursor: pointer;
+    }
+
+    label,
+    small {
+        margin-top:-10px;
+    }
+
+    input[type="radio"] {
+        height: 1rem;
+        width: 1.2rem;
+        margin-right: 0.5rem;
+        
+    }
+
+
+    #accent {
+        accent-color: var(--checked-color);
+    }
+
+    .custom-radio {
+        /* hiding browser el */
+        appearance: none;
+        /* Safari support */
+        -webkit-appearance: none;
+        border: 0.2rem solid #fff;
+        background-color: var(--bg-color);
+        border-radius: 50%;
+    }
+
+    /* keyboard navigation focus appearance */
+    .custom-radio:focus-visible {
+        outline-offset: 0;
+    }
+
+    #box-shadow {
+        box-shadow: 0 0 0 1px var(--color);
+    }
+
+    #box-shadow:hover {
+        border-width: 0;
+    }
+
+    #box-shadow:checked {
+        box-shadow: 0 0 0 1px var(--checked-color);
+        background-color: var(--checked-color);
+        border-width: 0.2rem;
+    }
+
+    #outline {
+        outline: 1px solid var(--color);
+    }
+
+    #outline:hover {
+        outline-color: var(--checked-color);
+    }
+
+    #outline:checked {
+        outline-color: var(--checked-color);
+        background-color: var(--checked-color);
+
+        animation: outline-checked;
+        animation-duration: 0.1s;
+        animation-iteration-count: 4;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+    }
+
+    @keyframes outline-checked {
+        0% {
+            outline-offset: 0;
+        }
+
+        100% {
+            outline-offset: -0.2rem;
+        }
+    }
+</style>
+<span style="position: absolute;left: 90%;margin: 30px;"><h5 style="letter-spacing: 3px;">29:20</h5></span>
+<br>
+<section style="margin:50px;">
+    <h4>10. Arguments that take input from the user before running a program are called ________________________________
+    </h4>
+
+
+    
+        
+        <hr>
+        <input type="radio" name="styles" id="default" checked>
+        <label for="default" style="font-size:1.5rem;">main function arguments</label>
+    
+        <br>
+        <input type="radio" name="styles" id="default" checked>
+        <label for="default" style="font-size:1.5rem;">main arguments</label>
+        <br>
+    
+        <input type="radio" name="styles" id="default" checked>
+        <label for="default" style="font-size:1.5rem;">command-line arguments</label>
+        <br>
+    
+        <input type="radio" name="styles" id="default" checked>
+        <label for="default" style="font-size:1.5rem;">parameterized arguments</label>
+    
+        
+</section>
+   
+    <button class="btn btn-primary" style="padding:5px 20px;left:80%;position: absolute;">Save & Next</button>
+    <div style="margin:50px;">
+        <img src="/static/demo.png">
+    </div>
+{% endblock%}

@@ -1,0 +1,40 @@
+{% extends 'base.html'%}
+{% block title%}
+C language Test Module
+{% endblock%}
+
+
+{% block content%}
+<style>
+    .tag {
+        position: absolute;
+        right: 50px;
+        margin: 100px;
+    }
+</style>
+
+<br>
+
+<section style="margin:50px;">
+
+    <div style="border-radius: 5px;border:2px inset green;">
+        <img src="/static/check-mark.png">
+        <span  class="tag">
+            <h1>
+                C language
+            </h1>
+
+            <center>
+                <h3>Score : 88/100</h3>
+                <button class="btn">Download now</button>
+            </center>
+        </span>
+
+        <span style="position:absolute;right:0px;bottom: 0px;margin: 100px;">
+            Mr. jay vyas
+        </span>
+    </div>
+</section>
+
+
+{% endblock%}

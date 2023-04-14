@@ -1,4 +1,3 @@
-
 {% extends 'base.html'%}
 {% block title%}
 Hello me
@@ -6,41 +5,30 @@ Hello me
 
 
 {% block content%}
-<div style="margin:50px;" >
+<div class="div-form">
+
     <form method="POST">
-        {% csrf_token %} 
+        {% csrf_token %}
+
+
+        <div class="mb-3">
+            <label for="f" class="form-label">username</label>
+            <input type="text" name="username" class="form-control">
+        </div>
         
-
-    <div>
-        <div>
-            <label>USER NAME : </label>
+        <div class="mb-3">
+            <label for="f" class="form-label">password</label>
+            <input type="password" name="password" class="form-control">
         </div>
-        <div>
-            <input type="text" name="username">
-        </div>
-    </div> 
-
-    
-    <div>
-        <div>
-            <label>USER PASS : </label>
-        </div>
-        <div>
-            <input type="password" name="password">
-        </div>
-    </div> 
-
-    
-    <div>
-        <input type="submit">
-    </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
 
 
-</form>
-    
+
+    </form>
+
     <div>
         <a href="signup">new user? ..Register here..</a>
     </div>
 </div>
-{% endblock%}
 
+{% endblock%}

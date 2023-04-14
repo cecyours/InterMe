@@ -1,32 +1,32 @@
-
 {% extends 'base.html'%}
+{% load widget_tweaks %}
 {% block title%}
-Hello me
+Welcome 2 S E L S A
 {% endblock%}
 
 
 {% block content%}
-<div style="margin:50px;">
-
-    <form method="POST">
-        {% csrf_token %} 
-
-    {% for f in userForm%}
-    <div>
-        <div>
-            {{f.field.label}}:
-        </div>
-        <div>
-            {{f}}
-        </div>
-    </div>
-    {%endfor%}
-    <div>
-        <input type="submit">
-    </div>
-
-</form>
+<div class="div-form">
     
+    <form method="POST">
+        {% csrf_token %}
+
+        {%for f in userForm%}
+        <div class="mb-3">
+            <label for="f" class="form-label">{{f.field.label}}</label>
+
+            {% for e in f.errors%}
+            <div id="help" class="form-text" style="display: inline;position: absolute;right: 0;color:red;">{{e}}</div>
+            {%endfor%}
+            {% render_field f class+="form-control" %}
+        </div>
+
+        {%endfor%}
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+
+
+    </form>
+
 </div>
 {% endblock%}
-
