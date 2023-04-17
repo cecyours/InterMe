@@ -39,4 +39,5 @@ Blogs are a more useful tool in this tech era, some people loved to read books, 
 3. CSS3
 4. JS & Jquery
 5. mysql
+6. Firebase
 7. Django Framework
