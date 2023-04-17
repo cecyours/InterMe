@@ -22,7 +22,6 @@ Blogs are a more useful tool in this tech era, some people loved to read books, 
 - [x] Blogger can get contact details/appointments of viewers who are interested in the post.
 - [x] Bloggers can change contact form details at any time with the dashboard.
 - [x] Along with the post,  Bloggers can share the location of the business.
-- [x] Bloggers can view the post's comments & ratings.
 - [x] Bloggers can publish/ promote the feature of the personal web site on ````Business Blogs````
 
 | Viewer as User
