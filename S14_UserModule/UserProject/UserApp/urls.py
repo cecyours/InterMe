@@ -25,7 +25,9 @@ urlpatterns = [
     path('test',views.user_test,name="user-test"),
     path('dashboard',views.user_dashboard,name="user-dashboard"),
     path('result',views.result,name="user-result"),
-    path('list',views.get_list,name="get-list")
+    path('list',views.get_list,name="get-list"),
+    path('home',views.home,name="home-page"),
+    path('demo',views.demo,name="demo"),
 
     
 ]

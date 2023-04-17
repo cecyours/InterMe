@@ -1,0 +1,38 @@
+{%extends 'base.html'%}
+{%block content%}
+<style>
+    .form-control {
+        margin: 10px;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+
+        $("#btn_click").click(function () {
+
+            $.ajax({
+                data:{
+                    'name':$("#text").val()
+                },
+                url: "{% url 'demo'%}",
+                success: function (result) {
+                    $("#msg").empty()
+                    $("#msg").append(result)
+                }
+            });
+        });
+    })
+</script>
+<section style="margin: 50px;">
+    <input class="form-control" id="text">
+    <button id="btn_click" class="btn btn-primary">Hello</button>
+
+    <div style="margin: 100px;" id="msg">
+
+        <span id="span_me">Hello World</span>
+        <span>i am you</span>
+    </div>
+</section>
+{%endblock%}

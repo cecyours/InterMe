@@ -28,6 +28,12 @@ def result(request):
 
     return render(request, 'result.html')
 
+def demo(request):
+    username = request.GET.get("name")
+    return render(request,'demo.html',{'data':username})
+def home(request):
+    return render(request,'home.html')
+
 def user_dashboard(request):
     return render(request,'dashboard.html')
 
